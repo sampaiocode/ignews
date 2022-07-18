@@ -21,9 +21,9 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       q.Get(q.Match(q.Index('user_by_email'), q.Casefold(session.user.email)))
     );
 
-    let constumerId = user.data.stripe_costumer_id;
+    let customerId = user.data.stripe_costumer_id;
 
-    if (!constumerId) {
+    if (!customerId) {
       const stripeCustomer = await stripe.customers.create({
         email: session.user.email
       });
@@ -31,16 +31,16 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       await fauna.query(
         q.Update(q.Ref(q.Collection('users'), user.ref.id), {
           data: {
-            stripe_costumer_id: stripeCustomer.id
+            stripe_customer_id: stripeCustomer.id
           }
         })
       );
 
-      constumerId = stripeCustomer.id;
+      customerId = stripeCustomer.id;
     }
 
     const stripeCheckoutSession = await stripe.checkout.sessions.create({
-      customer: constumerId,
+      customer: customerId,
       payment_method_types: ['card'],
       billing_address_collection: 'required',
       line_items: [{ price: 'price_1LEbQ5JJ7IuMKM8EsXvvrtwX', quantity: 1 }],
