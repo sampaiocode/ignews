@@ -20,7 +20,7 @@
     display: block;
   }
 
-  .postContainer {
+  .postContent {
     font-size: 1.125rem;
     color: var(--gray-100);
     margin-top: 2rem;
@@ -36,6 +36,31 @@
 
       li {
         margin: 0.5rem 0;
+      }
+    }
+
+    &.postPreviewContent {
+      background: linear-gradient(var(--gray-100), transparent);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .continueReading {
+    background: var(--gray-850);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+    margin: 4rem 0 2rem;
+    border-radius: 3rem;
+
+    a {
+      margin-left: 0.5rem;
+      color: var(--purple-300);
+
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
