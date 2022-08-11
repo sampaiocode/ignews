@@ -8,7 +8,7 @@
 
 ## 💻 Sobre o projeto
 
-Esse projeto é um blog onde os usuários podem ter acesso ao conteúdo completo ou uma prévia de cada postagem de acordo com o status da sua assinatura. A assinatura é feita via Stripe e após o usuário realizar o pagamento, sua inscrição estará ativa e o usuário poderá visualizar o conteúdo por completo. Caso o usuário não faça uma assinatura, apenas poderá visualizar uma prévia do conteúdo.
+Esse projeto é um blog onde os usuários podem ter acesso ao conteúdo completo ou uma prévia de cada postagem de acordo com o status da sua assinatura. A assinatura é feita via Stripe e após o usuário realizar o pagamento, sua inscrição estará ativa e o usuário poderá visualizar qualquer postagem por completo. Caso o usuário não faça uma assinatura, apenas poderá visualizar uma prévia do conteúdo.
 
 ## 🛠️ Tecnologias
 
