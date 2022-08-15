@@ -15,7 +15,7 @@ Esse projeto é um blog onde os usuários podem ter acesso ao conteúdo completo
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [ReactJS](https://reactjs.org/)
-- [NextJS](https://nextjs.org/)
+- [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [FaunaDB](https://fauna.com/)
