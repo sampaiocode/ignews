@@ -8,14 +8,14 @@
 
 ## 💻 Sobre o projeto
 
-Esse projeto é um blog onde os usuários podem ter acesso ao conteúdo completo ou uma prévia de cada postagem de acordo com o status da sua assinatura. A assinatura é feita via Stripe e após o usuário realizar o pagamento, sua inscrição estará ativa e o usuário poderá visualizar o conteúdo por completo. Caso o usuário não faça uma assinatura, apenas poderá visualizar uma prévia do conteúdo.
+Esse projeto é um blog onde os usuários podem ter acesso ao conteúdo completo ou uma prévia de cada postagem de acordo com o status da sua assinatura. A assinatura é feita via Stripe e após o usuário realizar o pagamento, sua inscrição estará ativa e o usuário poderá visualizar qualquer postagem por completo. Caso o usuário não faça uma assinatura, apenas poderá visualizar uma prévia do conteúdo.
 
 ## 🛠️ Tecnologias
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [ReactJS](https://reactjs.org/)
-- [NextJS](https://nextjs.org/)
+- [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [FaunaDB](https://fauna.com/)
