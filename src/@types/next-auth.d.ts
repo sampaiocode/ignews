@@ -2,6 +2,6 @@ import NextAuth, { DefaultSession } from 'next-auth';
 
 declare module 'next-auth' {
   interface Session {
-    activeSubscription: object | null;
+    activeSubscription: object | null | string;
   }
 }
