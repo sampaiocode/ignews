@@ -10,7 +10,7 @@ import { stripe } from '../services/stripe';
 interface HomeProps {
   product: {
     priceId: string;
-    amount: number;
+    amount: string;
   };
 }
 
@@ -33,7 +33,7 @@ export default function Home({ product }: HomeProps) {
             <span>for {product.amount} month</span>
           </p>
 
-          <SubscribeButton priceId={product.priceId} />
+          <SubscribeButton />
         </section>
 
         <Image src="/images/avatar.svg" width="334" height="520" alt="Girl Coding" />
