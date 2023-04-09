@@ -18,10 +18,10 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
+- [NextAuth.js](https://next-auth.js.org/)
 - [FaunaDB](https://fauna.com/)
 - [Stripe](https://stripe.com/br)
 - [Prismic CMS](https://prismic.io/)
-- [NextAuth.js](https://next-auth.js.org/)
 
 ## 🚀 Instalação
 
